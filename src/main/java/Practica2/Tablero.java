@@ -80,6 +80,7 @@ public class Tablero {
             for (int j = 0; j < DIMENSION; j++) {
                 tablero += estadoSiguiente[i][j];
             }
+            tablero += "\n";
         }
         return tablero;
     }
